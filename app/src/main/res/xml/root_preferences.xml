@@ -1,0 +1,15 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="Theme">
+
+        <ListPreference
+            app:key="appTheme"
+            app:title="App Theme"
+            app:summary="Follow system, Dark Theme and Light Theme"
+            app:entries="@array/appThemeArray"
+            app:entryValues="@array/appThemeArray"
+            app:defaultValue="Follow System"/>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

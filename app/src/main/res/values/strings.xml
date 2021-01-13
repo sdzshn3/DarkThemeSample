@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DarkThemeSample</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string-array name="appThemeArray">
+        <item>Follow System</item>
+        <item>Dark Theme</item>
+        <item>Light Theme</item>
+    </string-array>
+</resources>
